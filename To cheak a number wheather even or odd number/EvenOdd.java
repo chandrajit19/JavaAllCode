@@ -1,0 +1,19 @@
+import java.util.*;
+class EvenOdd
+{  
+    static  	Scanner s= new Scanner(System.in);
+	public static void main(String... arg) 
+	{  
+		System.out.print("Enetr a number= ");
+		int n=s.nextInt();
+		if(n%2==0)
+		{
+			System.out.println(n+ " is  an even number");
+		}
+		else
+		{
+			System.out.println(n+" is an odd number");
+		}
+
+	}
+}

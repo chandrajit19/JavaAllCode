@@ -1,0 +1,19 @@
+import java.util.*;
+class  SumOfNnumber
+{
+	public static void main(String[] args) 
+	{   Scanner s=new Scanner(System.in);
+		System.out.println("Please enter a positive number = ");
+		int n=s.nextInt();
+		int sum=0;
+		
+		for(int i=n; i>=1; i--)
+		{
+			sum=sum+i;
+		}
+
+		//=n*(n+1)/2;
+		System.out.println("sum is = "+ sum);
+		
+	}
+}
